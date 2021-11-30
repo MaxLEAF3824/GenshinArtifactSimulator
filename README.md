@@ -1,8 +1,11 @@
-# GenshinArtifactSimulator
-《原神》圣遗物系统模拟实现
+# GenshinArtifactSimulator 
+该项目基本实现了原神中所有与圣遗物有关的部分。  
+包括副本出货机制，圣遗物主副属性的随机机制，圣遗物的强化机制等等等等  
+数据主要来自以下资料，基本可信  
+出货率：[Data Gathering的10000以上圣遗物稀有度样本统计数据]  https://docs.google.com/spreadsheets/d/1RcuniapqS6nOP05OCH0ui10Vo3bWu0AvFbhgcHzTybY/edit#gid=2061598189  
+主副词条分布：[NGA 圣遗物副词条与其中的多重概率问题] https://bbs.nga.cn/read.php?tid=26589982
 
-
-目录结构图
+##目录结构图
 src/main/java
 │  
 ├─enums   									//游戏相关数据和枚举  
