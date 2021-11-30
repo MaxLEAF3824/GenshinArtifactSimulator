@@ -11,16 +11,17 @@ import enums.ChanceEnum;
  */
 public enum SubAttrEnum implements ChanceEnum {
     //副词条出现概率(参考真实采样数据并修正)
-    CRIT(0.07),
-    CRIT_DMG(0.07),
-    ATK(0.125),
-    ATK_P(0.086),
-    DEF(0.127),
-    DEF_P(0.096),
-    HP(0.125),
-    HP_P(0.096),
-    ER(0.1),
-    EM(0.105),
+    //参考NGA论坛 [数据讨论] [提瓦特大学](附代码)圣遗物副词条与其中的多重概率问题 中给出的数据
+    CRIT(0.0682),
+    CRIT_DMG(0.0682),
+    ATK(0.1364),
+    ATK_P(0.0909),
+    DEF(0.1364),
+    DEF_P(0.0909),
+    HP(0.1364),
+    HP_P(0.0909),
+    ER(0.0909),
+    EM(0.0909),
     ;
 
     private final double chance;

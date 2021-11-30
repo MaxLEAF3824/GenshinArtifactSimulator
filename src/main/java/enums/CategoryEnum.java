@@ -5,7 +5,7 @@ package enums;
  *
  * @Auther: MaxLEAF
  * @Date: 2021/08/27/0:51
- * @Description:
+ * @Description: 圣遗物种类
  */
 public enum CategoryEnum {
     FLOWER,

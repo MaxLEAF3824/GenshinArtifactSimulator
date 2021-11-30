@@ -5,7 +5,7 @@ package enums.attributes;
  *
  * @Auther: MaxLEAF
  * @Date: 2021/08/28/13:24
- * @Description:
+ * @Description: 副词条强化数据
  */
 public enum SubAttrUpEnum {
     CRIT_1(2.7, SubAttrEnum.CRIT),

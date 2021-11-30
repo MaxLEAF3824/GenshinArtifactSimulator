@@ -16,6 +16,7 @@ import java.util.Random;
 public class Utils {
     /**
      * 从EnumList中随机抽取n个，实现/没实现ChanceEnum接口的会分开处理
+     * 按 带权不放回模式实现
      * @param enumList
      * @param num
      * @param <T>
@@ -55,6 +56,7 @@ public class Utils {
         return getRandomEnum(enumList, 1).get(0);
     }
 
+    //简单抽取
     public static boolean isHit(double probability) {
         Random random = new Random();
         return random.nextDouble() < probability;

@@ -5,7 +5,7 @@ package enums;
  *
  * @Auther: MaxLEAF
  * @Date: 2021/08/28/0:35
- * @Description:
+ * @Description: 用于区分一个Enum是否带权
  */
 public interface ChanceEnum {
     public double chance();

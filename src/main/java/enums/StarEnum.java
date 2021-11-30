@@ -5,7 +5,7 @@ package enums;
  *
  * @Auther: MaxLEAF
  * @Date: 2021/08/27/23:57
- * @Description:
+ * @Description: 圣遗物星级枚举
  */
 public enum StarEnum {
     GOLD,

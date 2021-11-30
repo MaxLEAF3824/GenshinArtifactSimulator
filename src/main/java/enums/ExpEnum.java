@@ -5,7 +5,7 @@ package enums;
  *
  * @Auther: MaxLEAF
  * @Date: 2021/08/27/23:44
- * @Description:
+ * @Description: 圣遗物经验相关数据
  */
 public enum ExpEnum {
     LV_0(3000),
@@ -29,11 +29,11 @@ public enum ExpEnum {
     LV_18(31050),
     LV_19(35575),
     LV_20(999999999),
-    EXP_BLUE(1260),
+    EXP_BLUE(1260), //蓝色圣遗物基础经验值
     EXP_PURPLE(2520),
     EXP_GOLD(3780),
     EXP_TOP_LIMIT(270475),
-    EXP_LOSS_P(80);
+    EXP_LOSS_P(80); //经验折损率
 
     private final int value;
 

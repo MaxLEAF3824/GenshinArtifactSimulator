@@ -11,8 +11,8 @@ import enums.ChanceEnum;
  */
 public enum PrimAttrGobletEnum implements ChanceEnum, PrimAttrEnum {
     DEF_P(0.2),
-    ATK_P(0.2),
-    HP_P(0.2),
+    ATK_P(0.2125),
+    HP_P(0.2125),
     PHY(0.05),
     PRYO(0.05),
     HYDRO(0.05),
@@ -20,7 +20,7 @@ public enum PrimAttrGobletEnum implements ChanceEnum, PrimAttrEnum {
     ELECTRO(0.05),
     ANEMO(0.05),
     GEO(0.05),
-    EM(0.05),
+    EM(0.025),
     ;
 
     private final double chance;

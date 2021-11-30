@@ -5,7 +5,7 @@ package enums;
  *
  * @Auther: MaxLEAF
  * @Date: 2021/08/28/0:01
- * @Description:
+ * @Description: 圣遗物套装名称枚举
  */
 public enum SuitEnum {
     A("追忆之注连"),

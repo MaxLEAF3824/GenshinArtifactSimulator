@@ -5,7 +5,7 @@ package enums;
  *
  * @Auther: MaxLEAF
  * @Date: 2021/08/28/12:40
- * @Description:
+ * @Description: 圣遗物强化相关数据
  */
 public enum UpMultiEnum implements ChanceEnum {
     DOUBLE(0.09,2), //双倍强化概率

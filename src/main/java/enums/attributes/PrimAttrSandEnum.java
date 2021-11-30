@@ -10,11 +10,11 @@ import enums.ChanceEnum;
  * @Description:
  */
 public enum PrimAttrSandEnum implements ChanceEnum, PrimAttrEnum {
-    DEF_P(0.25),
-    ATK_P(0.25),
-    HP_P(0.25),
-    ER(0.125),
-    EM(0.125),
+    DEF_P(0.2666),
+    ATK_P(0.2666),
+    HP_P(0.2668),
+    ER(0.1),
+    EM(0.1),
     ;
     private final double chance;
 
