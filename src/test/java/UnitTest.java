@@ -66,13 +66,13 @@ public class UnitTest {
     @Test
     public void initTrashNumTest() {
         int day = 100;
-        int playerNum = 100;
+        int playerNum = 200;
         String filePath = "initTrashNumTest.csv";
         Domain domain = new Domain();
         CsvWriter csvWriter = new CsvWriter(filePath, ',', Charset.forName("GBK"));
 
         // 比较不同起始蓝色狗粮数量下的成长速度
-        for (int blueTrashNum = 0; blueTrashNum <= 600; blueTrashNum += 200) {
+        for (int blueTrashNum = 0; blueTrashNum <= 1000; blueTrashNum += 200) {
             double[] scores = new double[day];
             for (int i = 0; i < playerNum; i++) {
                 Player player = new Player();
@@ -108,7 +108,7 @@ public class UnitTest {
     @Test
     public void dayReduceTest() {
         int day = 100;
-        int playerNum = 100;
+        int playerNum = 200;
         String filePath = "dayReduceTest.csv";
         Domain domain = new Domain();
         CsvWriter csvWriter = new CsvWriter(filePath, ',', Charset.forName("GBK"));
@@ -148,12 +148,12 @@ public class UnitTest {
     public void niceLowerLimitTest() {
         int day = 100;
         int playerNum = 200;
-        String filePath = "niceLowerLimitTest5—15.csv";
+        String filePath = "niceLowerLimitTest.csv";
         Domain domain = new Domain();
         CsvWriter csvWriter = new CsvWriter(filePath, ',', Charset.forName("GBK"));
 
         // 比较不同不同金色圣遗物狗粮认定标准对结果的影响
-        for (int niceLowerLimit = 5; niceLowerLimit <= 15; niceLowerLimit += 1) {
+        for (int niceLowerLimit = 5; niceLowerLimit <= 30; niceLowerLimit += 5) {
             double[] scores = new double[day];
             for (int i = 0; i < playerNum; i++) {
                 Player player = new Player();
